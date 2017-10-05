@@ -1,7 +1,6 @@
 library(jsonlite)
 
-#census_api_key <- "YOUR API KEY HERE"
-
+census_api_key <- "YOUR API KEY HERE"
 
 #get census 2015 zipcode-level data for industries in each zipcode
 vars <- c("EMP", "EMPSZES", "NAICS2012", "NAICS2012_TTL")
